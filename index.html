@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/facebook.png" type="image/x-icon">
+    <title>Goriber FaceBook</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <!-- <img src="img/logo.png" alt="" class="logo"> -->
+            <a href="index.html"><p class="logo">FaceBook</p></a>
+            <ul>
+                <li><img src="img/notification.png" alt=""></li>
+                <li><img src="img/inbox.png" alt=""></li>
+                <li><img src="img/video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="img/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="user-img online"  onclick="settingsMenuToggler()">
+                <img src="img/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <!-- Settings Menu  -->
+        
+        <div class="settings-menu">
+
+            <!-- Dark Btn  -->
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="img/profile-pic.png" alt="">
+                    <div>
+                        <p class="name">Jhon Nicholson</p>
+                        <small><a href="profile.html">See Your profile</a></small>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="img/feedback.png" alt="">
+                    <div>
+                        <p class="name">Give Feedback</p>
+                        <small><a href="#">Help us to improve</a></small>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="settings-links">
+                <img src="img/setting.png" alt="" class="settings-icon">
+                <a href="#">Settings & Privicy <img src="img/arrow.png" alt=""></a>
+            </div>
+            <div class="settings-links">
+                <img src="img/help.png" alt="" class="settings-icon">
+                <a href="#">Help and Support <img src="img/arrow.png" alt=""></a>
+            </div>
+            <div class="settings-links">
+                <img src="img/display.png" alt="" class="settings-icon">
+                <a href="#">Display and Accessibility <img src="img/arrow.png" alt=""></a>
+            </div>
+            <div class="settings-links">
+                <img src="img/logout.png" alt="" class="settings-icon">
+                <a href="#">Logout <img src="img/arrow.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    </nav>
+
+    <section class="container">
+        <!-- Left SideBar -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="img/news.png" alt=""> Latest news</a>
+                <a href="#"><img src="img/friends.png" alt="">Friend</a>
+                <a href="#"><img src="img/group.png" alt="">Groups</a>
+                <a href="#"><img src="img/marketplace.png" alt="">Marketplace</a>
+                <a href="#"><img src="img/watch.png" alt="">Video </a>
+                <a href="#">See More &darr;</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Yours Shortcuts</p>
+                <a href="#"><img src="img/shortcut-1.png" alt=""> Web Developers</a>
+                <a href="#"><img src="img/shortcut-2.png" alt=""> Web Design</a>
+                <a href="#"><img src="img/shortcut-3.png" alt=""> Full Stack Development</a>
+                <a href="#"><img src="img/shortcut-4.png" alt=""> Web Exparts</a>
+            </div>
+           
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            
+            <!-- story-gallary -->
+            <div class="story-gallary">
+                <div class="story">
+                    <img src="img/upload.png" alt="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story">
+                    <img src="img/member-1.png" alt="">
+                    <p>Alison</p>
+                </div>
+                <div class="story">
+                    <img src="img/member-2.png" alt="">
+                    <p>Jackson</p>
+                </div>
+                <div class="story">
+                    <img src="img/member-3.png" alt="">
+                    <p>Samona</p>
+                </div>
+                <div class="story">
+                    <img src="img/member-4.png" alt="">
+                    <p>Mark</p>
+                </div>
+                
+            </div>
+            
+            <!-- Write Post  -->
+            <div class="write-post">
+                <div class="user-profile">
+                    <img src="img/member-1.png" alt="">
+                    <div>
+                        <p class="name">Alison Mina</p>
+                        <small>Public</small>
+                    </div>
+                </div>
+                <div class="post-input">
+                    <textarea name="textarea" rows="3" placeholder="What's on Your Mind, Alison?"></textarea>
+                    <div class="add-links">
+                        <a href="#">
+                            <img src="img/live-video.png" alt="">
+                            Live Video
+                        </a>
+                        <a href="#">
+                            <img src="img/photo.png" alt="">
+                            Photo/Video
+                        </a>
+                        <a href="#">
+                            <img src="img/feeling.png" alt="">
+                            Feeling/Activity
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Post Container  -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/member-1.png" alt="">
+                        <div>
+                            <p class="name">Alison Mina</p>
+                            <small>May 21 2022, 12:21 pm</small>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>@Joy Sen</span> sit amet consectetur adipisicing elit. Doloremque quibusdam placeat ullam cumque nesciunt harum <a href="#">#facebook</a> <a href="#">#youtube</a>
+                </p>
+                <img src="img/feed-image-1.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like-blue.png" alt="">120</div>
+                        <div><img src="img/comments.png" alt="">45</div>
+                        <div><img src="img/share.png" alt="">20</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/member-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another Post Container  -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/member-2.png" alt="">
+                        <div>
+                            <p class="name">Jack Nicholson</p>
+                            <small>May 20 2022, 12:21 pm</small>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>@Joy Sen</span> sit amet consectetur adipisicing elit. Doloremque quibusdam placeat ullam cumque nesciunt harum <a href="#">#facebook</a> <a href="#">#youtube</a>
+                </p>
+                <img src="img/feed-image-2.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like.png" alt="">200</div>
+                        <div><img src="img/comments.png" alt="">45</div>
+                        <div><img src="img/share.png" alt="">15</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/member-2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Another Post Container  -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/member-3.png" alt="">
+                        <div>
+                            <p class="name">Samona Susi</p>
+                            <small>May 20 2022, 12:21 pm</small>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>@Joy Sen</span> sit amet consectetur adipisicing elit. Doloremque quibusdam placeat ullam cumque nesciunt harum <a href="#">#facebook</a> <a href="#">#youtube</a>
+                </p>
+                <img src="img/feed-image-3.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like.png" alt="">200</div>
+                        <div><img src="img/comments.png" alt="">45</div>
+                        <div><img src="img/share.png" alt="">15</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/member-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Another Post Container  -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/member-4.png" alt="">
+                        <div>
+                            <p class="name">Mark Zukarbarg</p>
+                            <small>May 20 2022, 12:21 pm</small>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>@Joy Sen</span> sit amet consectetur adipisicing elit. Doloremque quibusdam placeat ullam cumque nesciunt harum <a href="#">#facebook</a> <a href="#">#youtube</a>
+                </p>
+                <img src="img/feed-image-4.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like-blue.png" alt="">400</div>
+                        <div><img src="img/comments.png" alt="">45</div>
+                        <div><img src="img/share.png" alt="">15</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Another Post Container  -->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="img/member-5.png" alt="">
+                        <div>
+                            <p class="name">Jhonny Deep</p>
+                            <small>May 20 2022, 12:21 pm</small>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                </div>
+                <p class="post-text">
+                    Lorem ipsum dolor <span>@Joy Sen</span> sit amet consectetur adipisicing elit. Doloremque quibusdam placeat ullam cumque nesciunt harum <a href="#">#facebook</a> <a href="#">#youtube</a>
+                </p>
+                <img src="img/feed-image-5.png" alt="" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="img/like.png" alt="">200</div>
+                        <div><img src="img/comments.png" alt="">45</div>
+                        <div><img src="img/share.png" alt="">15</div>
+                    </div>
+                    <div class="post-profile-icons">
+                        <img src="img/member-5.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+
+        <!-- Right SideBar  -->
+        <div class="right-sidebar">
+            <!-- title  -->
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <!-- Events  -->
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>march</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p> <img src="img/location.png" alt=""> Mirpur, Dhaka</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>june</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p> <img src="img/location.png" alt=""> Rajbari, Collegepara</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <!-- title  -->
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <div class="img-box">
+                <img src="img/advertisement.png" alt="">
+            </div>
+
+            <!-- title  -->
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-persons">
+                <div class="online-list">
+                    <div class="">
+                        <img src="img/member-1.png" alt="">
+                    </div>
+                    <p>Alison Mina</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="img/member-2.png" alt="">
+                    </div>
+                    <p>Jhon Doe</p>
+                </div>
+                <div class="online-list">
+                    <div class="online">
+                        <img src="img/member-3.png" alt="">
+                    </div>
+                    <p>Samon Rose</p>
+                </div>
+                <div class="online-list">
+                    <div class="">
+                        <img src="img/member-4.png" alt="">
+                    </div>
+                    <p>Jackson Aston</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js" integrity="sha512-5qbIAL4qJ/FSsWfIq5Pd0qbqoZpk5NcUVeAAREV2Li4EKzyJDEGlADHhHOSSCw0tHP7z3Q4hNHJXa81P92borQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

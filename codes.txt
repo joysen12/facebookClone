@@ -1,0 +1,148 @@
+Navigation Bar Css
+
+/* <!-- My designed Navbar --> */
+/* nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 8px;
+    background: #18191A;
+    border-bottom: 2px solid #90969b;
+}
+.left-col{
+    flex-basis: 25%;
+    display: flex;
+}
+.left-col img{
+    margin-right: 10px;
+}
+.search-grp{
+    position: relative;
+}
+.search-grp input{
+    background: #3A3B3C;
+    outline: none;
+    border: 0px;
+    padding: 12px 0px;
+    padding-left: 38px;
+    border-radius: 26px;
+    z-index: 0;
+    font-size: 18px;
+    color: var(--font-color);
+}
+.search-grp img{
+    position: absolute;
+    left: 10px;
+    top: 13px;
+    width: 24px !important;
+}
+.left-col img, .right-col img, .middle-col img{
+    width: 46px;
+    height: auto;
+}
+.left-col img, .right-col img, .middle-col img{
+    cursor: pointer;
+}
+.middle-col{
+    flex-basis: 50%;
+}
+.middle-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+.middle-icons img{
+    padding: 10px 0px;
+}
+.middle-icons div{
+    box-sizing: border-box;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+.middle-icons div:hover{
+    background: #474545;
+}
+.right-col{
+    flex-basis: 25%;
+}
+.right-icons{
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    display: flex;
+    color: #fff;
+}
+.profile img{
+    border-radius: 50%;
+}
+.profile p{
+    align-self: center;
+    margin: 0px 10px;
+}
+.img{
+    width: 24px !important;
+    height: 24px !important;
+}
+.img-box{
+    background: #474545;
+    border-radius: 50%;
+    align-self: center;
+    padding: 11px;
+    margin: 0px 10px;
+} */
+/* <!-- My designed Navbar --> */
+
+Navigation Bar Html
+    <!-- My designed Navbar -->
+    <!-- <nav>
+        <div class="left-col">
+            <img src="img/facebook.png" alt="">
+            <form action="#" class="search-grp">
+                <label for="src-box"><img src="img/search.png" alt=""></label>
+                <input id="src-box" type="text" placeholder="Search Facebook">
+            </form>
+        </div>
+        <div class="middle-col">
+            <div class="middle-icons">
+                <div>
+                    <img src="img/profile-home.png" alt="">
+                </div>
+                <div>
+                    <img src="img/profile-home.png" alt="">
+                </div>
+                <div>
+                    <img src="img/profile-home.png" alt="">
+                </div>
+                <div>
+                    <img src="img/profile-home.png" alt="">
+                </div>
+                <div>
+                    <img src="img/profile-home.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="right-col">
+            <div class="right-icons">
+                <div class="profile">
+                    <img src="img/profile-pic.png" alt="">
+                    <p>Joy</p>
+                </div>
+                <div class="img-box">
+                    <img class="img" src="img/comments.png" alt="">
+                </div>
+                <div class="img-box">
+                    <img class="img" src="img/message.png" alt="">
+                </div>
+                <div class="img-box">
+                    <img class="img" src="img/notification.png" alt="">
+                </div>
+                <div class="img-box">
+                    <img class="img" src="img/setting.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav> -->
